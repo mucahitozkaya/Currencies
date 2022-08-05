@@ -18,3 +18,5 @@ for id, info in data["rates"].items():
 df = pd.DataFrame(rates)
 df.columns=["Date","Name","Value"]
 df.to_csv('currency.csv', index=False)
+
+
